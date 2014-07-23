@@ -36,12 +36,6 @@ list of sources, then install the necessary packages, like this:
 
     sudo add-apt-repository ppa:canonical-qt5-edgers/qt5-beta2
     sudo apt-get install qtbase5-dev libqt5webkit5-dev
-    sudo apt-get install qtdeclarative5-dev qtlocation5-dev qtsensors5-dev
-
-Some Qt5 developmet packages are missing some dependancies, so if you get link
-errors make sure you have the following packages installed as well:
-
-    sudo apt-get install libxml2-dev libxslt1-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
 
 To compile the Renderer binary go to the source directory and issue the
 following commands:
