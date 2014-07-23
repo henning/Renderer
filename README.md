@@ -29,12 +29,12 @@ To compile the Renderer the Qt5 SDK is needed.  For Ubuntu users this
 translates to having Qt5 development packages installed from the repository.
 Qt5 for Ubuntu is provided by the "Canonical Qt5 Edgers" team at:
 
-    https://launchpad.net/~canonical-qt5-edgers/+archive/qt5-proper
+    https://launchpad.net/~canonical-qt5-edgers/+archive/ubuntu/qt5-beta2
 
 Install the Qt5 packages by adding ppa:canonical-qt5-edgers/qt5-proper to the
 list of sources, then install the necessary packages, like this:
 
-    sudo add-apt-repository ppa:canonical-qt5-edgers/qt5-proper
+    sudo add-apt-repository ppa:canonical-qt5-edgers/qt5-beta2
     sudo apt-get install qtbase5-dev libqt5webkit5-dev
     sudo apt-get install qtdeclarative5-dev qtlocation5-dev qtsensors5-dev
 
